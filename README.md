@@ -7,5 +7,9 @@ To set up the repository and run the code locally, run the below
 git clone https://github.com/kongtaoxing/flashbots
 cd flashbots
 npm install
-npm start
+cp .env.example .env
+```
+Then modify the private key in .env and run the below
+```bash
+node ./saveTokenFromExploited.js
 ```
