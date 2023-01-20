@@ -11,5 +11,5 @@ cp .env.example .env
 ```
 Then modify the private key in .env and run the below
 ```bash
-node ./saveTokenFromExploited.js
+node .script/[scriptName].js
 ```
