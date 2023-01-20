@@ -7,7 +7,7 @@ To set up the repository and run the code locally, run the below
 git clone https://github.com/kongtaoxing/flashbots
 cd flashbots
 npm install
-cp .env.example .env
+cp ./script/.env.example ./script/.env
 ```
 Then modify the private key in .env and run the below
 ```bash
